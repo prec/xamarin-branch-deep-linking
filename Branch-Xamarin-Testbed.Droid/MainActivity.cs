@@ -1,10 +1,8 @@
 using Android.App;
 using Android.Content;
 using Android.Content.PM;
-using Android.Widget;
 using Android.OS;
 using BranchXamarinSDK;
-using BranchXamarinTestbed;
 
 namespace BranchXamarinTestbed.Droid
 {
@@ -32,6 +30,8 @@ namespace BranchXamarinTestbed.Droid
 		{
 			base.OnCreate (savedInstanceState);
 			global::Xamarin.Forms.Forms.Init (this, savedInstanceState);
+
+		    BranchAndroid.Debug = true;
 
 			//App app = new App ();
 			//BranchAndroid.Init (this, GetString(Resource.String.branch_key), app);

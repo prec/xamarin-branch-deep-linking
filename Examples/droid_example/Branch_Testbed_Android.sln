@@ -1,6 +1,7 @@
-
 Microsoft Visual Studio Solution File, Format Version 12.00
-# Visual Studio 2012
+# Visual Studio 15
+VisualStudioVersion = 15.0.28307.168
+MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Branch_Testbed_Android", "Branch_Testbed_Android\Branch_Testbed_Android.csproj", "{4F92ED5A-D039-4A46-85AC-F617F9B2CCB1}"
 EndProject
 Global
@@ -11,8 +12,15 @@ Global
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
 		{4F92ED5A-D039-4A46-85AC-F617F9B2CCB1}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
 		{4F92ED5A-D039-4A46-85AC-F617F9B2CCB1}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4F92ED5A-D039-4A46-85AC-F617F9B2CCB1}.Debug|Any CPU.Deploy.0 = Debug|Any CPU
 		{4F92ED5A-D039-4A46-85AC-F617F9B2CCB1}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{4F92ED5A-D039-4A46-85AC-F617F9B2CCB1}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {27E38FB3-1A94-4E36-B627-C330713487DE}
 	EndGlobalSection
 	GlobalSection(MonoDevelopProperties) = preSolution
 		Policies = $0
